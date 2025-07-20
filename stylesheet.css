@@ -1300,6 +1300,10 @@ audio {
         background-color: #466baf;
     }
 
+/* Add to balloon styles */
+#b8, #b88 {
+  background-image: url('b1.png'); /* Use existing or add new image */
+}
 
 
     /*controlling tablet width*/

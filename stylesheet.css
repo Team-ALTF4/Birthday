@@ -1084,6 +1084,7 @@ audio {
 	height: 183px;
 	background-repeat: no-repeat no-repeat;
 	background-size: 100px 183px;
+	transform: translateX(-50px); 
 }
 .balloons h2 {
 	text-transform: uppercase;
@@ -1312,3 +1313,15 @@ audio {
     		-webkit-transform: scale(0.9);
     	}
     }*/
+/* For smaller screens */
+@media (max-width: 768px) {
+  .balloons {
+    width: 80px;
+    background-size: 80px 146px; /* 80/100 = 0.8 scale */
+    transform: translateX(-40px); /* Adjusted centering */
+  }
+  
+  .balloons h2 {
+    font-size: 40px; /* Slightly smaller text */
+  }
+}
